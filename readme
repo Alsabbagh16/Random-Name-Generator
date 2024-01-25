@@ -1,0 +1,36 @@
+# Random Name Generator
+
+## Overview
+
+This Python script generates random full names by combining first names and family names from given text files. It can be used to create diverse sets of names for various purposes, such as testing, placeholders, or creative writing.
+
+## Features
+
+- Reads first names and family names from text files.
+- Generates random full names by combining first and family names.
+- Writes the generated names to an output text file.
+
+## Usage
+
+1. Ensure you have Python installed on your system.
+2. Prepare two text files:
+   - `first_names.txt`: Contains a list of first names, each on a new line.
+   - `family_names.txt`: Contains a list of family names, each on a new line.
+3. Modify the script variables as needed:
+   - `first_names_file`: Path to the first names text file.
+   - `family_names_file`: Path to the family names text file.
+   - `output_file`: Path to the output text file.
+   - `num_names_to_generate`: Number of random names to generate.
+4. Run the script:
+
+    ```bash
+    python random_name_generator.py
+    ```
+
+5. Check the specified output file for the generated names.
+
+## Example
+
+Suppose `first_names.txt` contains:
+
+made by Buddie.sol
